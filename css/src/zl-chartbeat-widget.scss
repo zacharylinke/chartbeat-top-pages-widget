@@ -1,0 +1,65 @@
+$black: #000;
+$brand-primary: #e92500;
+$gray-lightest: #f5f5f5;
+$gray-mid: #a9a9a9;
+$gray: #444;
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$white: #fff;
+
+.zl-chartbeat-widget {
+  font-family: $font-family-sans-serif;
+
+  a {
+    text-decoration: none;
+  }
+
+  .cell {
+    display: table-cell;
+    font-size: 1em;
+    font-weight: bold;
+    padding: .25em .75em;
+
+    &.people {
+      color: $gray-mid;
+      font-size: 1.3em;
+      padding-right: 0;
+    }
+
+    &.title {
+      color: $gray;
+      font-size: 1.2em;
+    }
+  }
+
+  .row {
+    display: table-row;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    &:nth-child(even) {
+      background-color: $gray-lightest;
+    }
+
+    &:hover * {
+      color: $brand-primary;
+    }
+  }
+
+  &.static {
+
+    .row:hover * {
+      background-color: lighten($brand-primary, 10%);
+      color: $white;
+      transition: background-color .3s, color .3s;
+    }
+  }
+
+  .widget-title {
+    color: $black;
+    font-family: $font-family-title;
+    font-size: 1.75em;
+  }
+}
