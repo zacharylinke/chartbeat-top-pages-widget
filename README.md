@@ -1,6 +1,8 @@
 ## ZL Top Pages Chartbeat Widget
 A simple JavaScript widget to display Top Pages from Chartbeat
 
+View example display: [zacharylinke.com/chartbeat-top-pages-widget](http://zacharylinke.com/chartbeat-top-pages-widget)
+
 ### Chartbeat
 To learn more about Chartbeat API and Top Pages endpoint 
 - http://support.chartbeat.com/docs/api.html#toppages
