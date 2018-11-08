@@ -1,4 +1,4 @@
-## ZL Top Pages Chartbeat Widget
+## Top Pages Chartbeat Widget
 A simple JavaScript widget to display Top Pages from Chartbeat
 
 View example display: [zacharylinke.com/chartbeat-top-pages-widget](http://zacharylinke.com/chartbeat-top-pages-widget)
